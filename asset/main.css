@@ -1,0 +1,228 @@
+/*search box css start here*/
+
+.search-sec {
+    padding: 2rem;
+    z-index: 1;
+}
+
+.search-slt {
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+.wrn-btn {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius: 0;
+}
+
+@media (min-width: 992px) {
+    .search-sec {
+        position: relative;
+        top: -114px;
+        background: rgba(26, 70, 104, 0.51);
+    }
+}
+
+@media (max-width: 992px) {
+    .search-sec {
+        background: #1A4668;
+    }
+}
+
+.carousel-item {
+    max-height: 500px;
+}
+
+
+/* Footer */
+
+#footer {
+    padding: 60px 0;
+    margin-top: 20px;
+}
+
+#footer .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#footer {
+    background: rgba(26, 70, 104, 0.51);
+}
+
+#footer h5 {
+    padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#footer ul.social li {
+    padding: 3px 0;
+}
+
+#footer ul.social li a i {
+    margin-right: 5px;
+    font-size: 25px;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.social li:hover a i {
+    font-size: 30px;
+    margin-top: -10px;
+}
+
+#footer ul.social li a,
+#footer ul.quick-links li a {
+    color: #ffffff;
+}
+
+#footer ul.social li a:hover {
+    color: #eeeeee;
+}
+
+#footer ul.quick-links li {
+    padding: 3px 0;
+    -webkit-transition: .5s all ease;
+    -moz-transition: .5s all ease;
+    transition: .5s all ease;
+}
+
+#footer ul.quick-links li:hover {
+    padding: 3px 0;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+#footer ul.quick-links li a i {
+    margin-right: 5px;
+}
+
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px) {
+    #footer h5 {
+        padding-left: 0;
+        border-left: transparent;
+        padding-bottom: 0px;
+        margin-bottom: 10px;
+    }
+    .part li {
+        font-size: 0.8rem;
+        padding: .5rem 0.75rem;
+    }
+    body {
+        font-size: 0.8rem;
+    }
+    .table td {
+        padding: 0.25rem;
+    }
+    h5 {
+        font-size: 1rem;
+    }
+    h2 {
+        font-size: 1.5rem !important;
+    }
+}
+
+
+/* .card-body{
+    padding-bottom: 0;
+} */
+
+.center {
+    text-align: center;
+}
+
+.star:hover {
+    cursor: pointer;
+    color: #dc3545;
+}
+
+
+/* .card
+{
+    margin: 15px;
+} */
+
+.section {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+ul>li>span {
+    font-weight: bold;
+}
+
+.card-my-title {
+    height: 3rem;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 10px
+}
+
+.text-red {
+    color: #dc3545;
+}
+
+.bg-red {
+    color: #dc3545;
+}
+
+.border-red {
+    color: #dc3545;
+}
+
+select {
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+.full-search-sec {
+    background-color: white;
+    /* border-radius: 50%; */
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.img-in-horizontal-card {
+    max-width: 33%;
+}
